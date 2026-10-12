@@ -66,4 +66,24 @@ This executive-facing dashboard provides an end-to-end breakdown of sales figure
 
 ![Excel Dashboard Preview](Excel_Executive_Sales_Dashboard.png)
 
+---
+
+## 🗄️ MySQL Database Analysis & Business Intelligence
+* **Source Script File:** `[View Full Analytics Script](./AdventureWorks_Sales_Analysis.sql)`
+* **Database System:** MySQL Workbench
+* **Key Skills Demonstrated:** Data formatting (`CONCAT`, `ROUND`), margin analysis, corporate data metrics calculations.
+
+### 🔍 Featured Business Query: Bottom-Line Profitability
+> This query calculates absolute values for Total Revenue, Total Product Cost, and Net Profit Margin, converting large numbers dynamically into localized formatting (Lakhs) for executive financial tracking.
+
+```sql
+-- Section: Bottom-Line Profitability & Margin Realization
+SELECT
+    CONCAT(ROUND(SUM(SalesAmount) / 100000, 2), ' Lakhs') AS Total_Revenue,
+    CONCAT(ROUND(SUM(TotalProductCost) / 100000, 2), ' Lakhs') AS Total_Cost,
+    CONCAT(ROUND((SUM(SalesAmount) - SUM(TotalProductCost)) / 100000, 2), ' Lakhs') AS Total_Profit
+FROM fact_sales_combined;
+```
+
+---
 
