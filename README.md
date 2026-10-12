@@ -86,4 +86,9 @@ FROM fact_sales_combined;
 ```
 
 ---
+---
+
+## 💼 Executive Slide Deck Presentation
+* **Direct Presentation Link:** `[Open Executive Presentation PDF](./Executive_Sales_Presentation.pdf)`
+* **Key Insights Delivered:** Strategic regional expansion plans, margin optimization recommendations, and operational bottleneck tracking delivered directly to stakeholders.
 
