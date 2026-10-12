@@ -58,3 +58,12 @@ This executive-facing dashboard provides an end-to-end breakdown of sales figure
 *   📁 `Executive_Sales_Dashboard.twbx` — The complete Tableau packaged workbook file containing worksheets and data extracts.
 *   📁 `dashboard_preview.png` — Visual screenshot preview of the active dashboard layout.
 
+---
+
+### 🟢 Microsoft Excel Data Pipeline & Analysis
+* **Data Prep Asset:** `[View Excel Binary Dataset](./Executive_Sales_Data.xlsb)`
+* **Key Focus:** Data warehousing prep, business logic modeling, KPI baseline definitions, and source data cleaning.
+
+![Excel Dashboard Preview](Excel_Executive_Sales_Dashboard.png)
+
+
