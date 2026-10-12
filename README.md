@@ -39,6 +39,19 @@ This executive-facing dashboard provides an end-to-end breakdown of sales figure
 *   **Tableau Public / Desktop:** Dashboard design, calculated fields, and interactive visualization.
 *   **Data Source:** Integrated transactional sales tables (`Fact_InternetSales`).
 
+
+---
+
+### 💛 Power BI Executive Dashboard
+
+![Power BI Dashboard Preview](Power%20BI%20Executive%20Dashboard.png)
+
+
+
+
+
+
+
 ---
 
 ## 📂 Project Structure
